@@ -29,11 +29,12 @@
     border-radius: 50%;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.681);
+    
 }
 img{
     width: 250px;
     height: 260px;
-
+    
 }
 h1{
     color: blanchedalmond;
@@ -62,4 +63,13 @@ h2{
 .vl{
     border-left: 1px solid white;
     height: 20px;
+}
+@media (max-width:640px){
+    img{
+        width: 400px;
+        height: 420px;
+    }
+    .img{
+        width: 400px;
+    }
 }
